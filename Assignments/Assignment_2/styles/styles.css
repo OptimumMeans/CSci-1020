@@ -1,0 +1,55 @@
+/*
+h1{
+    color: #3500D3;
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 42.5%;
+}
+
+h2{
+    color: #240090;
+    font-size: 21px;
+    font-weight: normal;
+    font-variant: normal;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    color: ghostwhite;
+    font-size: 15px;
+    font-weight: normal;
+    font-variant: normal;
+    font-style: normal;
+    font-family: 'Monaco', 'monospace';
+}
+    /* Chose 'monospace' as backup for 'Monaco' */
+
+/*
+body{
+    background-color: #282828;
+}
+
+article{
+    background-color: black;
+    padding: 4%;
+    margin: 1%;
+}
+
+footer{
+    font-size: 20px;
+    margin-left: 42.5%;
+    color: #3500D3;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+}
+
+.datetime{
+    padding-left: 80%;
+    padding-top: 1%;
+}
+</style>
+*/
