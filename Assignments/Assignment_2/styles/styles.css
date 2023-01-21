@@ -2,6 +2,10 @@ header, footer, nav{
     background-color: #596e79;
 }
 
+#wrapper{
+    background-color: #c7b198;
+}
+
 figure{
     background-color: gainsboro;
     width: 15%;
