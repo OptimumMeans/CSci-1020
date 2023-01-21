@@ -1,3 +1,7 @@
+header, footer, nav{
+    background-color: #596e79;
+}
+
 figure{
     background-color: gainsboro;
     width: 15%;
