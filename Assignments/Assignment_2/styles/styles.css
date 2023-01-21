@@ -1,3 +1,22 @@
+figure{
+    background-color: gainsboro;
+    width: 15%;
+    padding: 3%;
+    margin: auto;
+}
+
+figure>img{
+    width: 100%;
+}
+
+/* https://stackoverflow.com/questions/19138758/how-to-align-caption-underneath-image */
+figcaption{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
 /*
 h1{
     color: #3500D3;
