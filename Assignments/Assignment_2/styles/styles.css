@@ -27,6 +27,11 @@ header>h2{
     margin: -5px 0 0 40.5px;
 }
 
+.h2_page_tag{
+    font-family: 'Quattrocento', serif;
+    font-weight: none;
+}
+
 /* Taken from https://css.maxdesign.com.au/listamatic/horizontal30.htm */
 #navcontainer
 {
@@ -90,8 +95,13 @@ footer{
     text-align: center;
 }
 
-p{
+p, ol{
     font-family: 'Lora', serif;
+    text-align: center;
+}
+
+ol{
+    list-style-type: circle;
 }
 
 #wrapper{
@@ -117,9 +127,9 @@ article{
 } */
 
 figure{
-    background-color: gainsboro;
-    width: 15%;
-    padding: 3%;
+    background-color: #c7b198;
+    width: 25%;
+    padding: 1.5%;
     margin: auto;
 }
 
@@ -131,6 +141,11 @@ figure>img{
 figcaption{
     text-align: center;
 }
+
+#sunny_16{
+    text-align: center;
+}
+
 /*
 h1{
     color: #3500D3;
