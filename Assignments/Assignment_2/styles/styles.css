@@ -1,10 +1,28 @@
 header, footer, nav{
     background-color: #596e79;
+    padding: 2%;
 }
 
 #wrapper{
     background-color: #c7b198;
+    width: 90%;
+    margin: auto;
+    padding: 1.5% 5% 1.5% 5%;
+    border: 1px solid black;
 }
+
+article{
+    background-color: #dfd3c3;
+    padding: 1%;
+}
+
+/* h1{
+
+} */
+
+/* h2{
+
+} */
 
 figure{
     background-color: gainsboro;
@@ -19,10 +37,6 @@ figure>img{
 
 /* https://stackoverflow.com/questions/19138758/how-to-align-caption-underneath-image */
 figcaption{
-    text-align: center;
-}
-
-h2{
     text-align: center;
 }
 /*
