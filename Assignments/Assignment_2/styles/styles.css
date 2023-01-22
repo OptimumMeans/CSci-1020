@@ -3,12 +3,14 @@ font-family: 'Cinzel', serif;
 font-family: 'Lora', serif;
 font-family: 'Quattrocento', serif;
 */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lora&family=Quattrocento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Quattrocento:wght@400;700&display=swap');
 
 header, footer, nav{
     background-color: #596e79;
     padding: 2%;
     color: #c7b198;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 header{
@@ -23,9 +25,28 @@ header>h1{
 
 header>h2{
     font-family: 'Quattrocento', serif;
-    font-weight: lighter;
+    font-weight: unset;
     margin: -5px 0 0 40.5px;
 }
+
+h2{
+    font-family: 'Quattrocento', serif;
+    font-weight: 700;
+    margin: -5px 0 0 40.5px;
+}
+
+h3{
+    font-family: 'Quattrocento', serif;
+    font-weight: 600;
+    margin: -5px 0 0 40.5px;
+}
+
+h4{
+    font-family: 'Quattrocento', serif;
+    font-weight: 600;
+    margin: -5px 0 0 40.5px;
+}
+
 
 .h2_page_tag{
     font-family: 'Quattrocento', serif;
@@ -97,6 +118,9 @@ footer{
 
 p, ol{
     font-family: 'Lora', serif;
+    font-size: 14px;
+    color: darkslategrey;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -104,6 +128,13 @@ ol{
     list-style-type: circle;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  
 #wrapper{
     background-color: #c7b198;
     width: 90%;
