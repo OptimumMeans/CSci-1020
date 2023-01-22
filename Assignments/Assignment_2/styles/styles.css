@@ -1,3 +1,10 @@
+/*
+font-family: 'Cinzel', serif;
+font-family: 'Lora', serif;
+font-family: 'Quattrocento', serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lora&family=Quattrocento&display=swap');
+
 header, footer, nav{
     background-color: #596e79;
     padding: 2%;
@@ -14,6 +21,7 @@ header, footer, nav{
 article{
     background-color: #dfd3c3;
     padding: 1%;
+    margin: 0.5% auto;
 }
 
 /* h1{
