@@ -8,6 +8,91 @@ font-family: 'Quattrocento', serif;
 header, footer, nav{
     background-color: #596e79;
     padding: 2%;
+    color: #c7b198;
+}
+
+header{
+    padding: 20px 2%
+}
+
+header>h1{
+    font-family: 'Cinzel', serif;
+    font-weight: lighter;
+    margin: 0;
+}
+
+header>h2{
+    font-family: 'Quattrocento', serif;
+    font-weight: lighter;
+    margin: -5px 0 0 40.5px;
+}
+
+nav{
+    padding: 0;
+}
+/* Taken from https://css.maxdesign.com.au/listamatic/horizontal30.htm */
+#navcontainer
+{
+padding: 0;
+background: #ccc;
+height: 20px;
+}
+
+#navlist
+{
+margin: 0px;
+padding: 0px 0px;
+display: block;
+}
+
+#navlist li
+{
+list-style: none;
+float: left;
+}
+
+#navcontainer a, #navlist li.extend
+{
+margin: 0px;
+display: block;
+border-top: 1px solid #333;
+padding: 1px 6px;
+text-decoration: none;
+background: #ccc;
+font: normal 12px verdana, serif;
+color: #000;
+}
+
+#navcontainer a:hover, #navcontainer a#current
+{
+padding: 1px 5px;
+background: #FAFAFA;
+border-right: 1px solid #333;
+border-left: 1px solid #333;
+border-top: 1px solid #FAFAFA;
+border-bottom: 1px solid #333;
+color: #000;
+}
+
+#navcontainer a#current
+{
+background: #F6F6F6;
+border-top: 1px solid #F6F6F6;
+font-weight: bold;
+}
+
+#navcontainer li#active
+{
+border-right: 2px solid #828282;
+border-bottom: 2px solid #828282;
+}
+
+footer{
+    padding: 0;
+}
+
+p{
+    font-family: 'Lora', serif;
 }
 
 #wrapper{
