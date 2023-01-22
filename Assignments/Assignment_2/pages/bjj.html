@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brazillian Jiu-Jitsu</title>
 
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
     
@@ -14,70 +14,140 @@
         <h1></h1>
     </header>
     
-    <nav>
-        <ul>
-            <li>
-                <a href="about.html">Link to About Me</a>
-                <a href="avrt.html">Link to AVRT</a>
-                <a href="../index.html">Link to Home Page</a>
-                <a href="gaming.html">Link to Gaming</a>
-                <a href="photography.html">Link to Photography</a>
-            </li>
+    <div id="navcontainer">
+        <ul id="navlist">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="avrt.html">AVRT</a></li>
+            <li id="active"><a href="#" id="current">Brazillian Jiu-Jitsu</a></li>
+            <li><a href="gaming.html">Gaming</a></li>
+            <li><a href="photography.html">Photography</a></li>
         </ul>
-    </nav>
+    </div>
 
     <article>
-        <h2>
-
-        </h2>
-
+        <h2>Why I chose Comp-Sci</h2>
         <p>
-
+            I have always been interested in electronics but more specifically,
+            computers. Mix that with a love for continous learning and you get
+            someone who may or may not choose to pursue a Comp-Sci degree.
+            Obviously in my case I chose to pursue it, but it did take me awhile.
+            I graduated the year of 2020 and it is now 2023, so roughly 2 years it
+            took for me to decide if Computer Science was for me. I think I made
+            the right choice! My Teacher Mr. Gorill is very knowledgable and has taught
+            me already that the learning don't stop!
         </p>
-
+        
+        <div class="datetime">
+            <p>
+            This article was posted on <time datetime="01/12/2023 21:13">January 12 2023</time>
+            </p>
+        </div>
+    </article>
+    
+    <article>
+        <h2>Headings!</h2>
         <p>
-
+            Headings and sub-headings, as well as sub-sub-headings are very important in the
+            HTML hierarchy. They enable many 'Accessability' functions that a user may need, 
+            or they can be found at the footer of a site to save countless link-clicking and scrolling.
+            Headings run 1-6, with 1 being the biggest (refer to "Camerons First Blog").
+            On this page I have only used h1 and h2, h6 is hilariously small. Never use more than 1 h1 tag! Ever!
         </p>
-
-        <p>
-
-        </p>
+        
+        <div class="datetime">
+            <p>
+            This article was posted on <time datetime="01/12/2023 21:13">January 12 2023</time>
+            </p>
+        </div>
     </article>
 
     <article>
-        <h2>
-
-        </h2>
+        <h2>Paragraph tags</h2>
+        <p>
+            The <code>&lt;p&gt;</code> tag is the basis of this blog. It enables written words rather than
+            each word being tried as a command/element/tag. The tag is especially useful when equipped with an 
+            <code>&lt;article&gt;</code> tag, the two go hand-in-hand. It enables blocks of text that can be 
+            separated from other blocks of text, such as this blog and its multiple posts. I think the 
+            <code>&lt;p&gt;</code> tag is my favorite. It has enabled me to convey this to you.
+        </p>
         
-        <p>
-
-        </p>
-
-        <p>
-
-        </p>
-
-        <p>
-
-        </p>
+        <div class="datetime">
+            <p>
+            This article was posted on <time datetime="01/12/2023 21:13">January 12 2023</time>
+            </p>
+        </div>
     </article>
 
     <article>
-        <h2>
-
-        </h2>
-        
+        <h2>Tags and Elements</h2>
         <p>
-
+            A tag can be used to open or close an element. 
+            An opening tag consists of <code>&lt; and &gt;</code>,
+            While a closing tag goes like this: <code>&lt;/ and &gt;</code>.
+            An element consists of a command that lets the computer understand
+            what you are trying to display, whether it be a paragraph, or a sub-heading.
+            Fun fact: I had to learn how to use the greater than and less than sign in
+            HTML as those characters are specifically reserved for HTML.
         </p>
 
-        <p>
+        <div class="datetime">
+            <p>
+            This article was posted on <time datetime="01/12/2023 21:13">January 12 2023</time>
+            </p>
+    </article>
 
+    <article>
+        <h2>Semantics</h2>
+        <p>
+            There are non-semantic and semantic elements. Non-semantic tells you absolutely
+            nothing about the content enclosed. Semantic on the other hand defines the content
+            and works for tags such as <code>&lt;article&gt;</code>, <code>&lt;form&gt;</code>,
+            and <code>&lt;table&gt;</code>. Semantic elements are of high importance to Search Engines
+            and the users devices who are perusing your website. It also has greater
+            accessability for users who may be blind or have other impairments that require such
+            levels of accessability.
         </p>
 
-        <p>
+        <div class="datetime">
+            <p>
+            This article was posted on <time datetime="01/12/2023 21:13">January 12 2023</time>
+            </p>
+    </article>
 
+    <article>
+        <h2>CSS!</h2>
+        <p>
+            Cascading Style Sheets, better known by its abbrievation as 'CSS' is a language
+            that is primarily used to orient a site. Whether that be the layout, colors, or 
+            fonts, it is all controlled via CSS. My website's colors come from CSS, as well as
+            the fonts and pixel size. So much can be done. One thing to worry about though, is
+            the Hierarchy associated with CSS.
         </p>
+
+        <div class="datetime">
+            <p>
+            This article was posted on <time datetime="01/12/2023 21:13">January 12 2023</time>
+            </p>
+    </article>
+
+    <article>
+        <h2>The Power of Google</h2>
+        <p>
+            So to end my last blog post here, I want to talk about Google and how its enabled
+            me, persuaded me, and coddled me, as I've been on this journey. I have prior experience
+            coding via <a href="https://www.theodinproject.com/about">The Odin Project</a>, which gave
+            me quite a head start on these classes and I enjoy that. Thanks Google! Google has also helped
+            me when I've felt helpless on this journey, its allowed for me to ask open-ended questions because I cannot phrase
+            the question properly. It has left me feeling like I am unstoppable in this realm. I am
+            not re-inventing the wheel, I am simply learning how to code. Google is your friend, do not be ashamed
+            to use Google!
+        </p>
+
+        <div class="datetime">
+            <p>
+            This article was posted on <time datetime="01/12/2023 21:13">January 12 2023</time>
+            </p>
     </article>
 
     <footer>
