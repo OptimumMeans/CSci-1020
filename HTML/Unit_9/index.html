@@ -21,6 +21,30 @@
             margin: 0 auto;
         }
 
+        #main-content{
+            width: 63.393939393%; /* 523 / 825 */
+            float: left;
+        }
+
+        .main-figure{
+            width: 32.504780114%; /* 170 / 523 */
+            margin-right: 9.560229445%; /* 50 / 523 */
+        }
+
+        #sidebar{
+            width: 36.606060606%; /* 302 / 825 */
+            float: left;
+        }
+
+        .side-figure{
+            width: 88.079470198%; /* 266 /302 */
+            margin: 0 auto;
+        }
+
+        footer{
+            clear: left;
+        }
+        
     </style>
 </head>
 <body>
@@ -57,7 +81,7 @@
         <div id="main-content">
             <article>
                 <h2>subhead</h2>
-                <figure>
+                <figure class="main-figure">
                     <img src="cat.jpg" width="500px;">
                     <figcaption>
                         <p>caption here</p>
@@ -174,7 +198,7 @@
         <div id="sidebar">
             <article>
                 <h2>subhead</h2>
-                <figure>
+                <figure class="side-figure">
                     <img src="cat.jpg" width="500px;">
                     <figcaption>
                         <p>caption here</p>
