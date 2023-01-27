@@ -68,9 +68,22 @@
         }
 
         #feature{
-            width: 85.575757575%; /* 706 / 825 */
+            width: 81.3257575758%; /* 706 / 825 */
             margin: 0 auto;
             background-color: silver;
+            overflow: hidden;
+            padding: 1.5% 2.25% 3.5% 2.25%;
+        }
+
+        .feature-img{
+            float: left;
+            width: 40%;
+        }
+
+        .feature-text{
+            float: left;
+            width: 58%;
+            margin-left: 2%;
         }
 
         #main-content{
@@ -81,6 +94,7 @@
         .main-figure{
             width: 32.504780114%; /* 170 / 523 */
             margin-right: 9.560229445%; /* 50 / 523 */
+            float: right;
         }
 
         #sidebar{
@@ -91,6 +105,14 @@
         .side-figure{
             width: 88.079470198%; /* 266 /302 */
             margin: 0 auto;
+        }
+
+        figure{
+            background-color: silver;
+        }
+
+        figure img{
+            max-width: 100%;
         }
 
         footer{
@@ -117,8 +139,8 @@
 
         <div id="feature">
             <h2>feature heading</h2>
-            <img src="cat.jpg" width="500px;">
-            <p>
+            <img src="cat.jpg" width="500px;" class="feature-img">
+            <p class="feature-text">
                 Lorem ipsum dolor sit amet, consectetur 
                 adipiscing elit. Aenean sed sollicitudin 
                 tellus, eget pharetra purus. Nullam faucibus, 
