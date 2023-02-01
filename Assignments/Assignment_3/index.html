@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cam's Movie Reviews</title>
+
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
     <!--Begin Wrapper-->
@@ -13,6 +15,7 @@
             <h1>Lorem Ipsum.</h1>
         </div>
 
+        <!--Begin Nav-->
         <div id="sticker" class="navbar">
             <ul class="nav">
                 <li><a href="#">Home</a></li>
@@ -22,7 +25,9 @@
                 <li><a href="#">Page 5</a></li>
             </ul>
         </div>
+        <!--End Nav-->
 
+        <!--Begin content-->
         <div class="content">
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -34,29 +39,8 @@
                 Nullam aliquet semper diam, id scelerisque nisi aliquet eu. 
                 Aenean mollis velit id arcu placerat iaculis.
             </p>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Nulla non aliquet quam, non bibendum lectus. Phasellus et ante 
-                in lorem rutrum luctus. Proin purus elit, porta et ullamcorper 
-                et, blandit vel nunc. Phasellus quis eros magna. Class aptent 
-                taciti sociosqu ad litora torquent per conubia nostra, per 
-                inceptos himenaeos. Suspendisse tristique et nunc at congue. 
-                Nullam aliquet semper diam, id scelerisque nisi aliquet eu. 
-                Aenean mollis velit id arcu placerat iaculis.
-            </p>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Nulla non aliquet quam, non bibendum lectus. Phasellus et ante 
-                in lorem rutrum luctus. Proin purus elit, porta et ullamcorper 
-                et, blandit vel nunc. Phasellus quis eros magna. Class aptent 
-                taciti sociosqu ad litora torquent per conubia nostra, per 
-                inceptos himenaeos. Suspendisse tristique et nunc at congue. 
-                Nullam aliquet semper diam, id scelerisque nisi aliquet eu. 
-                Aenean mollis velit id arcu placerat iaculis.
-            </p>
         </div>
+        <!--End Content-->
 
         <!--Begin Footer-->
         <div class="footer">
@@ -69,5 +53,25 @@
 
     </div>
     <!--End Wrapper-->
+
+    <!--Begin scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+    var s = $("#sticker");
+    var pos = s.position();					   
+    $(window).scroll(function() {
+        var windowpos = $(window).scrollTop();
+        
+        if (windowpos >= pos.top) {
+            s.addClass("stick");
+        } else {
+            s.removeClass("stick");	
+        }
+        });
+        });
+    </script>
+    <!--End Scripts-->
+    
 </body>
 </html>
