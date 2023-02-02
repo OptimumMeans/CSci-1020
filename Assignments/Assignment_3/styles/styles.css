@@ -1,10 +1,10 @@
 /*
 Color codes
-red - #FA320A
-dark grey - #505257
-darker grey - #2A2C32
-light grey - #BCBDBE
-white - #FFFFFF
+red - #FA320A - header background
+dark grey - #505257 - <h> tags
+darker grey - #2A2C32 - <p> tags
+light grey - #BCBDBE - <footer> tags
+white - #FFFFFF - containers
 */
 
 /*
@@ -21,44 +21,54 @@ font-family: 'Playfair Display SC', serif;
     padding: 0;
 }
 
+html{
+    background-color: #f3f3f3;
+}
+
 body{
-    margin: 0;
-    padding: 0; 
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    display: block;
+    margin: 2.5%;
+    background-color: #FFFFFF;
     }
 
 .wrap{
-    width: 960px; 
-    min-height: 1400px;
+    width: 90%;
     background: #ecf0f1;
     margin: 0 auto;
     }
 
+/*Begin Header*/
 .header{
-    min-height: 250px;
-    background: #16a085; 
-    margin: 0;
-    padding: 0;
+    padding: 20px 20%;
+    background: #FA320A;
+    font-family: 'Playfair Display SC', serif;
     }
 
 .header h1{
     text-align: center; 
-    padding-top: 80px;
-    color: #fff; 
-    font-size: 60px; 
+    padding-top: 5%;
+    color: #FFFFFF; 
+    font-size: 60px;
     text-shadow: 2px 2px 0px #030303;
     }
+/*End Header*/
 
+/*Begin Nav*/
 .navbar{
-    background: #f39c12; 
-    height: 40px; 
-    padding-left: 100px;
+    background-color: rgba(0,0,0,.6);
+    color: #fff;
+    font-size: 16px;
+    opacity: .3;
+    position: relative;
+    height: 40px;
+    text-align: center;
     }
 
 .navbar ul.nav{
     list-style: none;
     margin: 0;
     padding: 0;
+    display: inline-block;
     }
 
 .navbar ul.nav li{
@@ -75,21 +85,28 @@ body{
 .navbar ul.nav li a:hover{
     background: #e67e22;
     }
+/*End Nav*/
 
+/*Begin Content*/
 .content{
     padding: 30px 150px;
     }
 
 .content p{
     font-size: 16px; 
-    color: #34495e; 
+    color: #2A2C32; 
     line-height: 25px;
+    font-family: 'Lora', serif;
     }
+/*End Content*/
 
+/*Begin Footer*/
 .footer{
-    height: 30px; 
-    color: #ff0; 
-    background: #34495e;
+    color: #BCBDBE; 
+    background: #505257;
+    text-align: center;
+    margin: 5px 0px 0px 0px;
+    padding: 2%;
     }
 
 .footer p{
@@ -98,7 +115,9 @@ body{
     }
 
 .footer p a{
-    color: #fff;}
+    color: #fff;
+    }
+/*End Footer*/
 
 div#sticker{
     width: 100%;
