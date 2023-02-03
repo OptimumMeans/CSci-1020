@@ -85,22 +85,37 @@ body{
     margin:0 auto;
 }
 
+/*Start header*/
 .header{
-    min-height:250px;
     background:#FA320A;
-    margin:0;
-    padding:0;
+    padding: 3%;
 }
 
 .header h1{
     text-align:center;
     padding-top:15%;
     color:#fff;
-    font-size:60px;
     text-shadow:2px 2px 0px #030303;
     font-family: 'Playfair Display SC', serif;
 }
+/*End header*/
 
+/*Start <h> tags*/
+h1, h2{
+    letter-spacing: 0.05em;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 3.5em;
+}
+/*End <h> tags*/
+
+/*Start nav*/
 .navbar{
     background: #2A2C32;
     opacity: .4;
@@ -120,7 +135,7 @@ body{
 
 .navbar ul.nav li a{
     display:block;
-    padding:10px;
+    padding: 0.75em;
     text-decoration:none;
     color:#fff;
 }
@@ -128,7 +143,9 @@ body{
 .navbar ul.nav li a:hover{
     background:#e67e22;
 }
+/*End nav*/
 
+/*Start content*/
 .content{
     padding:30px 150px;
 }
@@ -138,7 +155,9 @@ body{
     color:#34495e; 
     line-height:25px;
 }
+/*End content*/
 
+/*Start footer*/
 .footer{
     height:30px; 
     color:#ff0; 
@@ -153,7 +172,9 @@ body{
 .footer p a{
     color:#fff;
 }
+/*End footer*/
 
+/*Start sticker*/
 div#sticker{
     width:860px;
 }
@@ -162,3 +183,4 @@ div#sticker{
 	position:fixed;
 	top:0px;
 }
+/*End sticker*/
