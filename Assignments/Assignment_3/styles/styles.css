@@ -88,8 +88,9 @@ article>p{
 
 h2, h3, h4, h5, h6{
     font-family: 'Playfair Display', serif;
-    color: #ea3057;
+    color: #505257;
     letter-spacing: 0.05em;
+    font-weight: 500;
 }
 
 h1{
@@ -99,8 +100,7 @@ h1{
 
 h2{
     font-size: 1.75em;
-    font-weight: bold;
-    padding: 1.5%;
+    padding: 5%;
 }
 
 /*Begin wrapper*/
@@ -143,6 +143,7 @@ h2{
 
 .navbar ul.nav li{
     float:left;
+    font-family: 'Playfair Display', serif;
 }
 
 .navbar ul.nav li a{
@@ -187,9 +188,9 @@ div#sticker{
     float: left;
     width: 58%;
     margin-left: 2%;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Lora', serif;
     font-size: 1.3em;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 125%;
     letter-spacing: 0.05em;
 }
