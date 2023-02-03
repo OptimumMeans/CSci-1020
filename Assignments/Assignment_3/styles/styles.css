@@ -1,3 +1,59 @@
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+       
+/*+++++ Start CSS Reset +++++*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*+++++ End CSS Reset +++++*/
+
 /*
 Color codes
 red - #FA320A - header background
@@ -14,113 +70,69 @@ font-family: 'Playfair Display', serif;
 font-family: 'Playfair Display SC', serif;
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-        /* http://meyerweb.com/eric/tools/css/reset/ 
-        v2.0 | 20110126
-        License: none (public domain)
-        */
-
-        html, body, div, span, applet, object, iframe,
-        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-        a, abbr, acronym, address, big, cite, code,
-        del, dfn, em, img, ins, kbd, q, s, samp,
-        small, strike, strong, sub, sup, tt, var,
-        b, u, i, center,
-        dl, dt, dd, ol, ul, li,
-        fieldset, form, label, legend,
-        table, caption, tbody, tfoot, thead, tr, th, td,
-        article, aside, canvas, details, embed, 
-        figure, figcaption, footer, header, hgroup, 
-        menu, nav, output, ruby, section, summary,
-        time, mark, audio, video {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            font-size: 100%;
-            font: inherit;
-            vertical-align: baseline;
-        }
-        /* HTML5 display-role reset for older browsers */
-        article, aside, details, figcaption, figure, 
-        footer, header, hgroup, menu, nav, section {
-            display: block;
-        }
-        body {
-            line-height: 1;
-        }
-        ol, ul {
-            list-style: none;
-        }
-        blockquote, q {
-            quotes: none;
-        }
-        blockquote:before, blockquote:after,
-        q:before, q:after {
-            content: '';
-            content: none;
-        }
-        table {
-            border-collapse: collapse;
-            border-spacing: 0;
-        }
-
-        /*+++++ End CSS Reset +++++*/
-
-*{
-    margin:0;
-    padding:0;
-}
 
 body{
-    margin:0;
-    padding:0;
-    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    background-color: #505257;
 }
 
-.wrapper{
-    width:960px;
-    min-height:1400px;
-    background:#ecf0f1;
+article{
+    background-color: white;
+}
+
+article>p{
+    line-height: 130%;
+    font-family: 'Lora', serif;
+    letter-spacing: 0.05em;
+    padding: 2%;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: 'Playfair Display', serif;
+    color: #ea3057;
+    letter-spacing: 0.05em;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1.75em;
+    font-weight: bold;
+    padding: 1.5%;
+}
+
+/*Begin wrapper*/
+#wrapper{
+    width: 80.56640625%;
+    background:#e5e5e5;
     margin:0 auto;
 }
+/*End wrapper*/
 
-/*Start header*/
+/*Begin header*/
 .header{
-    background:#FA320A;
     padding: 3%;
+    background-color: #FA320A;
 }
 
 .header h1{
-    text-align:center;
-    padding-top:15%;
-    color:#fff;
+    text-align:center; 
+    padding-top: 4px; 
+    color:#fff; 
+    font-size:60px; 
     text-shadow:2px 2px 0px #030303;
     font-family: 'Playfair Display SC', serif;
 }
 /*End header*/
 
-/*Start <h> tags*/
-h1, h2{
-    letter-spacing: 0.05em;
-}
-
-h1{
-    font-size: 4em;
-    font-weight: bold;
-}
-
-h2{
-    font-size: 3.5em;
-}
-/*End <h> tags*/
-
-/*Start nav*/
+/*Begin nav*/
 .navbar{
     background: #2A2C32;
-    opacity: .4;
-    height:40px;
-    padding-left:100px;
+    height:40px; 
+    padding-left: 10.475%;
+    opacity: .6;
 }
 
 .navbar ul.nav{
@@ -135,52 +147,119 @@ h2{
 
 .navbar ul.nav li a{
     display:block;
-    padding: 0.75em;
-    text-decoration:none;
+    padding:10px; 
+    text-decoration:none; 
     color:#fff;
 }
 
-.navbar ul.nav li a:hover{
+.navbar ul.nav li a:hover{ 
     background:#e67e22;
 }
 /*End nav*/
 
-/*Start content*/
-.content{
-    padding:30px 150px;
+/*Begin sticker*/
+div#sticker{
+    width: 89.583333333%;
 }
 
-.content p{
-    font-size:16px; 
-    color:#34495e; 
-    line-height:25px;
+.stick{
+    position:fixed;
+    top:0px;
+    width: 89.583333333%;
 }
-/*End content*/
+/*End sticker*/
 
-/*Start footer*/
-.footer{
-    height:30px; 
-    color:#ff0; 
-    background:#34495e;
-}
-
-.footer p{
-    text-align:center;
-    padding:5px;
+/*Begin feature*/
+#feature{
+    width: 81.3257575758%; /* 706 / 825 */
+    margin: 3% auto 4%;
+    background-color: white;
+    overflow: hidden;
+    padding: 1.5% 2.25% 3.5% 2.25%;
 }
 
-.footer p a{
-    color:#fff;
+.feature-img{
+    float: left;
+    width: 40%;
+}
+
+.feature-text{
+    float: left;
+    width: 58%;
+    margin-left: 2%;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 125%;
+    letter-spacing: 0.05em;
+}
+
+#feature h2{
+    margin-bottom: 2%;
+}
+/*End feature*/
+
+/*Begin main*/
+#main-content{
+    width: 59.393939393%; /* 523 / 825 */
+    float: left;
+    margin: 2%;
+}
+
+.main-figure{
+    width: 32.504780114%; /* 170 / 523 */
+    margin-right: 9.560229445%; /* 50 / 523 */
+    float: right;
+}
+/*End main*/
+
+/*Begin sidebar*/
+#sidebar{
+    width: 32.606060606%; /* 302 / 825 */
+    float: left;
+    margin: 2%;
+}
+
+.side-figure{
+    width: 88.079470198%; /* 266 /302 */
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+
+#sidebar figcaption{
+    margin-bottom: 2%;
+}
+/*End sidebar*/
+
+/*Begin figure*/
+figure{
+    background-color: silver;
+}
+
+figure img{
+    max-width: 100%;
+}
+
+figcaption{
+    font-family: 'Josefin Slab', serif;
+    margin: 3%;
+}
+/*End figure*/
+
+/*Begin footer*/
+footer{
+    clear: left;
+    padding: 2%;
+    text-align: center;
+}
+
+footer>p{
+    margin: 0;
 }
 /*End footer*/
 
-/*Start sticker*/
-div#sticker{
-    width:860px;
-}
+/* type styles */
 
-.stick {
-	position:fixed;
-	top:0px;
+p{
+    margin: 2.5% 0;
 }
-/*End sticker*/
