@@ -84,6 +84,8 @@ article{
     font-family: 'Lora', serif;
     letter-spacing: 0.05em;
     padding: 5%;
+    font-size: 1.25em;
+    font-weight: 500;
 }
 
 #gif{
@@ -165,6 +167,11 @@ h3{
 .navbar ul.nav li a:hover{ 
     background:#e67e22;
 }
+
+.navbar-nav li a:hover, .navbar-nav li.active a{
+    color: purple !important;
+    background-color: fff !important;
+}
 /*End nav*/
 
 /*Begin sticker*/
@@ -241,6 +248,7 @@ div#sticker{
 
 #sidebar figcaption{
     margin-bottom: 2%;
+    letter-spacing: 0.1em;
 }
 /*End sidebar*/
 
@@ -256,6 +264,9 @@ figure img{
 figcaption{
     font-family: 'Lora', serif;
     margin: 3%;
+    letter-spacing: 0.05em;
+    line-height: 1.25em;
+    font-size: 1.005em;
 }
 /*End figure*/
 
