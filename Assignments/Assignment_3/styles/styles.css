@@ -79,13 +79,16 @@ article{
     background-color: white;
 }
 
-article>p{
-    line-height: 130%;
+.normal>p{
+    line-height: 140%;
     font-family: 'Lora', serif;
     letter-spacing: 0.05em;
-    padding: 2%;
+    padding: 5%;
 }
 
+#gif{
+    margin-top: 50%;
+}
 h2, h3, h4, h5, h6{
     font-family: 'Playfair Display', serif;
     color: #505257;
@@ -101,6 +104,12 @@ h1{
 h2{
     font-size: 1.75em;
     padding: 5%;
+}
+
+h3{
+    font-size: 1.25em;
+    padding: 3.5%;
+    font-weight: 900;
 }
 
 /*Begin wrapper*/
@@ -193,6 +202,7 @@ div#sticker{
     font-weight: 600;
     line-height: 125%;
     letter-spacing: 0.05em;
+    padding-top: 3%;
 }
 
 #feature h2{
@@ -202,9 +212,10 @@ div#sticker{
 
 /*Begin main*/
 #main-content{
-    width: 59.393939393%; /* 523 / 825 */
+    width: 51.393939393%; /* 523 / 825 */
     float: left;
     margin: 2%;
+    padding: 0 0 0 2%;
 }
 
 .main-figure{
@@ -216,9 +227,10 @@ div#sticker{
 
 /*Begin sidebar*/
 #sidebar{
-    width: 32.606060606%; /* 302 / 825 */
+    width: 30.606060606%; /* 302 / 825 */
     float: left;
     margin: 2%;
+    padding: 4%;
 }
 
 .side-figure{
@@ -242,7 +254,7 @@ figure img{
 }
 
 figcaption{
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Lora', serif;
     margin: 3%;
 }
 /*End figure*/
